@@ -123,8 +123,7 @@ def multi_class_prediction(prediction, affine):
     return prediction_images
 
 
-def run_validation_case(data_index, output_dir, model, data_file, training_modalities,
-                        output_label_map=False, threshold=0.5, labels=None, overlap=16, permute=False,origin_shape=None,name=None):
+def run_validation_case(data_index, output_dir, model, data_file, output_label_map=False, threshold=0.5, labels=None, overlap=16, permute=False,origin_shape=None,name=None):
     """
     Runs a test case and writes predicted images to file.
     :param data_index: Index from of the list of test cases to get an image prediction from.
@@ -182,7 +181,7 @@ def run_validation_case(data_index, output_dir, model, data_file, training_modal
     return dice1,acc_voxel1,sensitivity2,specificity2,precision2
 
 
-def run_validation_cases(training_keys_file, model_file, training_modalities, labels, hdf5_file,
+def run_validation_cases(training_keys_file, model_file, labels, hdf5_file,
                          output_label_map=False, output_dir=".",origin_shape=None,name=None,threshold=0.5, overlap=16, permute=False):
     validation_indices = pickle_load(training_keys_file)
     model = load_old_model(model_file)
@@ -195,7 +194,7 @@ def run_validation_cases(training_keys_file, model_file, training_modalities, la
     name_list = {}
     for index in validation_indices:
         dice1[index],acc_voxel1[index],sensitivity2[index],specificity2[index],precision2[index]=run_validation_case(data_index=index, output_dir=output_dir, model=model, data_file=data_file,
-                            training_modalities=training_modalities, output_label_map=output_label_map, labels=labels,
+                            output_label_map=output_label_map, labels=labels,
                             threshold=threshold, overlap=overlap, permute=permute,origin_shape=origin_shape[index],name=name[index])
         name_list[index]=name[index]
     Len = {}
