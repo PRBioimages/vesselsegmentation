@@ -1,1 +1,1 @@
-output folder for storing denoising results
+The output folder for storing denoising results.
