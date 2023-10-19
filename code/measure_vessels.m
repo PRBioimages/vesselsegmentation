@@ -1,12 +1,8 @@
 %measure volume, surface area, and so on.
 clc
 clear
-%imgPathAll = dir('./data_feat/*.nii.gz');
-%imgPathAll = dir('./test/*.nii.gz');
 imgPathAll = dir('./data_feat_new/miss1/*.nii.gz'); %2023.9.10
 for n=1:length(imgPathAll)
-    %imgPath = ['./data_feat/' imgPathAll(n).name];
-    %imgPath = ['./test/' imgPathAll(n).name];
     imgPath = ['./data_feat_new/miss1/' imgPathAll(n).name]
     I = load_nii(imgPath); 
     CC = bwconncomp(I.img);
