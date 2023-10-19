@@ -138,7 +138,6 @@ def main(overwrite=True):
     pickle_dump(list(range(nb_samples)), config["testing_file"])
     run_validation_cases(training_keys_file=config["testing_file"],
                          model_file=config["model_file"],
-                         training_modalities=config["training_modalities"],
                          labels=config["labels"],
                          hdf5_file=config["data_file"],
                          output_label_map=True,
