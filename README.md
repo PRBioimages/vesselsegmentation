@@ -12,9 +12,8 @@ During the training phase, store the training data and labels in ./data/data_pre
 During the testing phase, store the testing data and labels (not essential) in ./data/data_pre and ./data/data_label. Choose a trained model file and Run ./code/test.py. The predicted results will be saved in ./3dunet_results/YourModelName/prediction/YourTestingDataName.
 
 ### part3 post-processing
-Run ./code/postprocess.py to post-process the predicted volumes. The results of denoising and closing will saved in ./3dunet_results/YourModelName/prediction/YourTestingDataName.
+Run ./code/postprocess.py to post-process the predicted volumes. The results of denoising and closing operation will be saved in ./3dunet_results/YourModelName/prediction/YourTestingDataName.
 
 ### part4 quantification
-Run ./code/feats.py to extract centerline, radius, and branching point features and the metrics including mean radius and number of branching points will be saved in
-./3dunet_results/YourModelName/prediction/YourTestingDataName/quantify. Other metrics can be measured by running ./code/measure_vessels.m in Matlab.
+Run ./code/feats.py to extract centerline, radius, and branching point features and the metrics will be saved in ./3dunet_results/YourModelName/prediction/YourTestingDataName/quantify. Other metrics can be measured by running ./code/measure_vessels.m in Matlab.
 
