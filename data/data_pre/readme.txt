@@ -1,1 +1,1 @@
-This folder stores the outputs of preprocessing.
+This folder stores the output of preprocessing.
