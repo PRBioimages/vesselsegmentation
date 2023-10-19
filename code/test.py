@@ -1,7 +1,7 @@
 import os
 import glob
 
-from aug_data.prediction import run_validation_cases
+from process.prediction import run_validation_cases
 from dvn.utils import get_itk_array, write_itk_imageArray, make_itk_image, write_itk_image
 from process.data import write_data_to_file, open_data_file
 import numpy as np
