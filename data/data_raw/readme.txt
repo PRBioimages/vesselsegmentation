@@ -1,1 +1,1 @@
-This folder stores the inputs of preprocessing.
+This folder stores the input of preprocessing.
