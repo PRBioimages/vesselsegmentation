@@ -1,1 +1,1 @@
-output folder for storing quantitative results
+The output folder for storing quantitative results.
