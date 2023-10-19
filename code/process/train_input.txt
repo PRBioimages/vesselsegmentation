@@ -1,0 +1,2 @@
+/home/xdyang/vesselsegmentation/data/data_pre/#11-ROI-2_clip_roll.nii.gz					
+/home/xdyang/vesselsegmentation/data/data_pre/#11-ROI-3_clip_his_roll.nii.gz

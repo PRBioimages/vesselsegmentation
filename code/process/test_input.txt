@@ -1,0 +1,2 @@
+/home/xdyang/vesselsegmentation/data/data_pre/#49-SBB-N-20x-002.nii.gz
+/home/xdyang/vesselsegmentation/data/data_pre/#19-II-10x-002.nii.gz

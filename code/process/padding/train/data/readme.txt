@@ -1,0 +1,1 @@
+To facilitate the transfer of data to h5 files, padding the data to the same size. This folder stores the output of padding operation.

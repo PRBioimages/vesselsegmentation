@@ -1,0 +1,1 @@
+output folder for storing closing results

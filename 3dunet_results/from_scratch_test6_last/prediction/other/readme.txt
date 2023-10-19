@@ -1,0 +1,1 @@
+The output folder for prediction of new data.

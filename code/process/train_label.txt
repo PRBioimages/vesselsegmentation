@@ -1,0 +1,2 @@
+/home/xdyang/vesselsegmentation/data/data_label/#11-ROI-2_label.nii.gz											
+/home/xdyang/vesselsegmentation/data/data_label/#11-ROI-3_label_fill.nii.gz

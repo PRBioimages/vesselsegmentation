@@ -1,0 +1,1 @@
+/home/xdyang/vesselsegmentation/3dunet_results/from_scratch_test6_last/prediction/other/#49-SBB-N-20x-0020.nii.gz

@@ -1,0 +1,1 @@
+This folder stores the models when training one fold of training data.
